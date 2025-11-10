@@ -14,8 +14,6 @@ done
 
 echo "Flask server is ready"
 
-export CHROME_OPTIONS="--headless --no-sandbox --disable-dev-shm-usage"
-
 # suoritetaan testit
 poetry run robot --variable HEADLESS:true src/tests
 
